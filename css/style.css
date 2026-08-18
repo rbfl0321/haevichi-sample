@@ -959,6 +959,20 @@ footer {
     display: flex;
     gap: 12px;
 }
+/* 아이패드 */
+@media screen and (max-width:1279px){
+    body{
+        font-size: 14px;
+    }
+    
+}
+/* 모바일 */
+@media screen and(max-width:767px) {
+    body{
+        font-size: 12px;
+    }
+    
+}
 
 
 
